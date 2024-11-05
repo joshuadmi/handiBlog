@@ -1,0 +1,152 @@
+/* DEBUT fonts */
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* FIN fonts */
+
+
+html {
+    background-color: rgba(0, 128, 0, 0.515);
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #afd1e8;
+    margin: 1%;
+    padding: 2%;
+
+}
+
+header {
+
+    background-image: url(./img/mont.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-color: rgba(0, 0, 255, 0.588);
+    margin: 0;
+    padding: 5%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+nav {
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    
+
+}
+
+
+/* Styliser la taille et la forme du logo */
+
+/* IMG qui est dans NAV qui est dans HEADER  */
+header>nav>img {
+    border-radius: 50%;
+    margin: 0;
+    width: 20%;
+    height: 20%;
+    border: 2px solid rgb(234, 134, 3);
+}
+
+/* définit la couleur du text des boutons de la navbar */
+
+
+/* DEBUT liens cliquables dans la navbar */
+
+
+.menu {
+    /* liste */
+    margin: 10px;
+}
+
+.bouton_nav {
+font-size: 1em;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: rgb(254, 255, 255);
+    padding: 3px;
+    border: 2px solid white;
+
+}
+
+.bouton_nav:hover {
+    background-color: rgb(255, 252, 252);
+    color: blue;
+    transition: background-color .5s;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+/* bouton newsletter */
+#news {
+    text-align: center;
+    height: fit-content;
+    background-color: orange;
+    border-radius: 15px;
+    border: 3px solid rgb(234, 134, 3);
+    padding: 5px;
+    flex: auto;
+
+
+}
+
+.list {
+display: flex;
+
+}
+
+
+/* FIN liens cliquables  */
+
+
+
+
+h1 {
+
+    font-family: "Permanent Marker", cursive;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    border-bottom: 2px solid green;
+
+}
+
+
+/* début de stylisation des articles */
+
+/* container qui regroupe les articles */
+.articles {
+    display: flex;
+    justify-items: auto;
+}
+
+img {
+    width: 50%;
+}
+
+main {
+    margin: 15px;
+
+}
+
+/* DEBUT pied de page */
+
+footer {
+    background-color: blue;
+
+}
+
